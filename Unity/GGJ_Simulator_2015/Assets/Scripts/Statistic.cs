@@ -20,12 +20,17 @@ public class Statistic {
     }
   }
 
-  public void Update()
+  public void Update(float multiplier = 1, bool withDeltaTime = true)
   {
-    Value += _UpdateRate * Time.deltaTime;
+    Value += _UpdateRate * ((withDeltaTime)?Time.deltaTime : 1) * multiplier;
   }
 
-  public Statistic(float minimumValue = 0f, float maximumValue = 1f, float value = 1f, float updateRate = -0.05f )
+  public void Add(float amount)
+  {
+    Value += amount;
+  }
+
+  public Statistic(float minimumValue = 0f, float maximumValue = 1f, float value = 1f, float updateRate = -0.03f )
   {
     _minimumValue = minimumValue;
     _maximumValue = maximumValue;

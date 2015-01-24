@@ -8,24 +8,24 @@ public class s_HudStats : MonoBehaviour {
   private GameObject _ProgressObj;
   private GameObject _EnergyObj;
   private GameObject _FoodObj;
-  private GameObject _DrinkObj;
+  private GameObject _PissObj;
   private GameObject _ProcrastinationObj;
 
   private Statistic _ProgressStatistic;
   private Statistic _EnergyStatistic;
   private Statistic _FoodStatistic;
-  private Statistic _DrinkStatistic;
+  private Statistic _PissStatistic;
   private Statistic _ProcrastinationStatistic;
 
 	void Start ()
 	{
-	  s_Stats playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<s_Stats>();
+	  StatisticsSet playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<s_Stats>().Stats;
 
-	  _ProgressStatistic = playerStats.ProgressStatistic;
-    _EnergyStatistic = playerStats.EnergyStatistic;
-    _FoodStatistic = playerStats.FoodStatistic;
-    _DrinkStatistic = playerStats.DrinkStatistic;
-    _ProcrastinationStatistic = playerStats.ProcrastinationStatistic;
+	  _ProgressStatistic = playerStats.progress;
+    _EnergyStatistic = playerStats.energy;
+    _FoodStatistic = playerStats.food;
+    _PissStatistic = playerStats.piss;
+    _ProcrastinationStatistic = playerStats.procrastination;
 
 
 	  _ProgressObj = (GameObject) Instantiate(Prefab);
@@ -46,11 +46,11 @@ public class s_HudStats : MonoBehaviour {
     _FoodObj.GetComponent<RectTransform>().anchorMax = new Vector2(0.1f, 0.5f);
     _FoodObj.GetComponent<Text>().text = "Food";
 
-    _DrinkObj = (GameObject)Instantiate(Prefab);
-    _DrinkObj.transform.SetParent(transform, false);
-    _DrinkObj.GetComponent<RectTransform>().anchorMin = new Vector2(0.1f, 0.35f);
-    _DrinkObj.GetComponent<RectTransform>().anchorMax = new Vector2(0.1f, 0.35f);
-    _DrinkObj.GetComponent<Text>().text = "Drink";
+    _PissObj = (GameObject)Instantiate(Prefab);
+    _PissObj.transform.SetParent(transform, false);
+    _PissObj.GetComponent<RectTransform>().anchorMin = new Vector2(0.1f, 0.35f);
+    _PissObj.GetComponent<RectTransform>().anchorMax = new Vector2(0.1f, 0.35f);
+    _PissObj.GetComponent<Text>().text = "Piss";
 
     _ProcrastinationObj = (GameObject)Instantiate(Prefab);
     _ProcrastinationObj.transform.SetParent(transform, false);
@@ -70,8 +70,8 @@ public class s_HudStats : MonoBehaviour {
     _FoodObj.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
       120f * _FoodStatistic.Value);
 
-    _DrinkObj.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
-      120f * _DrinkStatistic.Value);
+    _PissObj.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
+      120f * _PissStatistic.Value);
 
     _ProcrastinationObj.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
       120f * _ProcrastinationStatistic.Value);
