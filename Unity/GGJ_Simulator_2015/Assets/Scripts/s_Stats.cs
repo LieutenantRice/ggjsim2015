@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Stats : MonoBehaviour
+public class s_Stats : MonoBehaviour
 {
 
   private Statistic energyStatistic = new Statistic();
