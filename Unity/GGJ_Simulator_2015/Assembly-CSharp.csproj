@@ -46,10 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\HudStats.cs" />
+     <Compile Include="Assets\Scripts\Activatable\s_HiButton.cs" />
+     <Compile Include="Assets\Scripts\Activatable\s_Interactable.cs" />
      <Compile Include="Assets\Scripts\Statistic.cs" />
-     <Compile Include="Assets\Scripts\Stats.cs" />
+     <Compile Include="Assets\Scripts\s_HudStats.cs" />
+     <Compile Include="Assets\Scripts\s_Interact.cs" />
      <Compile Include="Assets\Scripts\s_Player.cs" />
+     <Compile Include="Assets\Scripts\s_Stats.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
