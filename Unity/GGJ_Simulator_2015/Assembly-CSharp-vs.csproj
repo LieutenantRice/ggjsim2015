@@ -50,7 +50,9 @@
      <Compile Include="Assets\Scripts\Activatable\s_Interactable.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Keyboard.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Music.cs" />
+     <Compile Include="Assets\Scripts\HUD\s_Hud_Clock.cs" />
      <Compile Include="Assets\Scripts\HUD\s_Hud_Progress.cs" />
+     <Compile Include="Assets\Scripts\HUD\s_Hud_Timer.cs" />
      <Compile Include="Assets\Scripts\Statistic.cs" />
      <Compile Include="Assets\Scripts\StatisticsSet.cs" />
      <Compile Include="Assets\Scripts\s_Camera.cs" />
@@ -58,6 +60,7 @@
      <Compile Include="Assets\Scripts\s_Interact.cs" />
      <Compile Include="Assets\Scripts\s_Player.cs" />
      <Compile Include="Assets\Scripts\s_Stats.cs" />
+     <Compile Include="Assets\Scripts\s_Time.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 5.0.0b21/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
