@@ -31,12 +31,12 @@ public class s_Player : MonoBehaviour
 		float f_sideSpeed = Input.GetAxis ("Horizontal") * f_movementSpeed;
 
 		//Character
-		Vector3 v_speed = new Vector3 (f_sideSpeed, 0, f_forwardSpeed);
+		Vector3 v_speed = new Vector3 (f_sideSpeed, Physics.gravity.y, f_forwardSpeed);
 		v_speed = transform.rotation * v_speed;
 
 		CharacterController cc = GetComponent<CharacterController> ();
 
-		cc.SimpleMove ( v_speed );
+		cc.Move ( v_speed * Time.deltaTime );
 
 	}
 }
