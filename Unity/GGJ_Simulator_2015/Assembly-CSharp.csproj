@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Activatable\s_HiButton.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Interactable.cs" />
      <Compile Include="Assets\Scripts\Statistic.cs" />
+     <Compile Include="Assets\Scripts\s_Camera.cs" />
      <Compile Include="Assets\Scripts\s_HudStats.cs" />
      <Compile Include="Assets\Scripts\s_Interact.cs" />
      <Compile Include="Assets\Scripts\s_Player.cs" />
