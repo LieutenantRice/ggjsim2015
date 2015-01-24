@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class HudStats : MonoBehaviour {
+public class s_HudStats : MonoBehaviour {
   public GameObject Prefab;
 
   private GameObject _ProgressObj;
@@ -19,7 +19,7 @@ public class HudStats : MonoBehaviour {
 
 	void Start ()
 	{
-	  Stats playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<Stats>();
+	  s_Stats playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<s_Stats>();
 
 	  _ProgressStatistic = playerStats.ProgressStatistic;
     _EnergyStatistic = playerStats.EnergyStatistic;
