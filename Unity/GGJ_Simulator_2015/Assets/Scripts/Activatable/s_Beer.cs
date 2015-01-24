@@ -18,4 +18,7 @@ public class s_Beer : s_Interactable {
     stats.procrastination.Add(0.4f);
     Destroy(gameObject);
   }
+  public override void LookAt(bool IsClose)
+  {
+  }
 }

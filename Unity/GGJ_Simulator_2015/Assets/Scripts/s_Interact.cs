@@ -13,41 +13,47 @@ public class s_Interact : MonoBehaviour
 	  _crosshair = GameObject.FindGameObjectWithTag("Crosshair").GetComponent<RawImage>();
 	}
 
-  private bool CastRay(out s_Interactable interactable)
+  private bool CastRay(out s_Interactable interactable, out float distance)
   {
     RaycastHit hit ;
     Ray ray = new Ray(Camera.main.transform.position,Camera.main.transform.forward);
 
-    if (Physics.Raycast(ray, out hit, interactRange) && hit.collider.GetComponent<s_Interactable>() != null)
+    if (Physics.Raycast(ray, out hit) && hit.collider.GetComponent<s_Interactable>() != null)
     {
       
       interactable = hit.collider.GetComponent<s_Interactable>();
+      distance = hit.distance;
       return true;
     }
     interactable = null;
+    distance = 0;
     return false;
   }
 
   void Update () {
+
+    setCrosshairUV(0);
+
     s_Interactable i;
-    if (CastRay(out i))
+    float distance;
+    if (CastRay(out i, out distance))
     {
-      if (Input.GetButtonDown("Interact"))
+      i.LookAt((distance <= interactRange));
+      if (distance <= interactRange)
       {
-        i.Interact();
-      }
+      
+        if (Input.GetButtonDown("Interact"))
+        {
+          i.Interact();
+        }
       setCrosshairUV(i.Crosshair);
     }
-    else
-    {
-      setCrosshairUV(0);
-    }
+  }
   }
 
   private void setCrosshairUV(int id)
   {
-    _crosshair.uvRect =
-      new Rect(0.1f*id ,0f ,0.1f, 1f);
+    _crosshair.uvRect = new Rect(0.1f*id ,0f ,0.1f, 1f);
   }
 
 }

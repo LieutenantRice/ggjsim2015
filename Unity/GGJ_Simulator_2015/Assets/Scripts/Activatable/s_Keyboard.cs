@@ -15,4 +15,8 @@ public class s_Keyboard : s_Interactable
     stats.progress.Update(1, false);
     stats.procrastination.Add(-0.02f);
   }
+
+  public override void LookAt(bool IsClose)
+  {
+  }
 }

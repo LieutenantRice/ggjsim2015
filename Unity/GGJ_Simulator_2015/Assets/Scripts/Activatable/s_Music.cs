@@ -3,51 +3,61 @@ using System.Collections;
 
 public class s_Music : s_Interactable
 {
-  public int Duration;
   public float ProgrestionationBoost ;
-  public float MaxRange;
   public float TickDuration;
-  public GameObject Screen;
+  public GameObject Audio;
 
   private StatisticsSet _stats;
-  private float _nextTime = 0;
   private Transform _player;
   private bool _playing = false;
-  private float _lastTick = 0;
+  private MovieTexture _mov;
+  private int _timeOut = 0;
+  private int _timeOutMax = 5;
+  private AudioSource _audioSource;
 
   private void Start()
   {
-    crosshair = 3;
+    crosshair = 0;
     _stats = GameObject.FindGameObjectWithTag("Player").GetComponent<s_Stats>().Stats;
     _player = GameObject.FindGameObjectWithTag("Player").transform;
+    _mov = (MovieTexture) GetComponent<Renderer>().material.mainTexture;
+    _mov.loop = true;
+    _audioSource = Audio.GetComponent<AudioSource>();
+    _audioSource.clip = _mov.audioClip;
   }
 
   public override void Interact()
   {
-    if (!_playing )
-    {
-      _nextTime = Time.time + Duration;
-      _playing = true;
-      GetComponent<AudioSource>().Play();
-    }
+  }
+
+  public override void LookAt(bool IsClose)
+  {
+    _timeOut = _timeOutMax;
+
   }
 
   private void Update()
   {
-    if (_playing)
+    if (_timeOut > 0)
     {
-      if (Time.time > _lastTick + TickDuration)
-      {
-        _lastTick = Time.time;
-        _stats.procrastination.Add(ProgrestionationBoost*
-                                   (1 - ((transform.position - _player.position).magnitude)/MaxRange));
-      }
+      _timeOut --;
 
-      if (Time.time >= _nextTime)
+      if (!_mov.isPlaying)
       {
-        _playing = false;
+        _mov.Play();
+        _audioSource.Play();
       }
     }
+    else
+    {
+      if (_mov.isPlaying)
+      {
+        _mov.Pause();
+        _audioSource.Stop();
+      }
+    }
+
+
   }
   
 }

@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Activatable\s_Beer.cs" />
-     <Compile Include="Assets\Scripts\Activatable\s_HiButton.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Interactable.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Keyboard.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Music.cs" />

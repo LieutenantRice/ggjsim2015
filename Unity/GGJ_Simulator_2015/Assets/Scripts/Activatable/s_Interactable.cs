@@ -9,4 +9,5 @@ public abstract class s_Interactable : MonoBehaviour
     get { return crosshair; }
   }
   public abstract void Interact();
+  public abstract void LookAt(bool IsClose);
 }
