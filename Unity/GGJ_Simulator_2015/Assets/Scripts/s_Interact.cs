@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class s_Interact : MonoBehaviour
 {
   public float interactRange = 1;
+  private RawImage _crosshair;
+  public Texture NoneTexture;
 
-	void Start () {
-	
+	void Start ()
+	{
+	  _crosshair = GameObject.FindGameObjectWithTag("Crosshair").GetComponent<RawImage>();
 	}
 
   private bool CastRay(out s_Interactable interactable)
@@ -32,10 +36,18 @@ public class s_Interact : MonoBehaviour
       {
         i.Interact();
       }
-
+      setCrosshairUV(i.Crosshair);
     }
-	  
+    else
+    {
+      setCrosshairUV(0);
+    }
+  }
 
-	}
+  private void setCrosshairUV(int id)
+  {
+    _crosshair.uvRect =
+      new Rect(0.1f*id ,0f ,0.1f, 1f);
+  }
 
 }

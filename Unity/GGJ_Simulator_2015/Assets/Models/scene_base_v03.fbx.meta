@@ -1,6 +1,5 @@
 fileFormatVersion: 2
 guid: 3fb8c93a77fc53c4b9e1ff820197f21a
-timeCreated: 1422094349
 licenseType: Pro
 ModelImporter:
   serializedVersion: 18
@@ -85,7 +84,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
