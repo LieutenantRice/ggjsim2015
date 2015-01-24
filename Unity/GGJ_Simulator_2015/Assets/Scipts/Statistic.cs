@@ -22,15 +22,16 @@ public class Statistic {
 
   public void Update()
   {
-    Value -= _UpdateRate * Time.deltaTime;
+    Value += _UpdateRate * Time.deltaTime;
   }
 
-  public Statistic(float minimumValue = 0f, float maximumValue = 1f, float updateRate = -0.05f)
+  public Statistic(float minimumValue = 0f, float maximumValue = 1f, float value = 1f, float updateRate = -0.05f )
   {
     _minimumValue = minimumValue;
     _maximumValue = maximumValue;
-    _value = maximumValue;
+    _value = value;
     _UpdateRate = updateRate;
+
   }
 
 }
