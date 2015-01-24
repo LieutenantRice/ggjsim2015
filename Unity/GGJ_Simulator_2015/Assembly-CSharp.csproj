@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Activatable\s_Interactable.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Keyboard.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Music.cs" />
+     <Compile Include="Assets\Scripts\HUD\s_Hud_Progress.cs" />
      <Compile Include="Assets\Scripts\Statistic.cs" />
      <Compile Include="Assets\Scripts\StatisticsSet.cs" />
      <Compile Include="Assets\Scripts\s_Camera.cs" />
