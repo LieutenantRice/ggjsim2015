@@ -13,7 +13,7 @@ public class s_Beer : s_Interactable {
 
   public override void Interact()
   {
-    stats.food.Add(0.2f);
+    stats.food.Add(0.1f);
     stats.piss.Add(0.2f);
     stats.procrastination.Add(0.4f);
     Destroy(gameObject);
