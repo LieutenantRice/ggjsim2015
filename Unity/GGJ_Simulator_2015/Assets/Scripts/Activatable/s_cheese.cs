@@ -7,7 +7,7 @@ public class s_cheese : s_Interactable {
 
   private void Start()
   {
-    crosshair = 2;
+    crosshair = 6;
     stats = GameObject.FindGameObjectWithTag("Player").GetComponent<s_Stats>().Stats;
   }
 
