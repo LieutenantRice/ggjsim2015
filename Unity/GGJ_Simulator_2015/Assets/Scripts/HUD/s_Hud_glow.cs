@@ -31,6 +31,7 @@ public class s_Hud_glow : MonoBehaviour
 	      _pulsing = false;
         _image.CrossFadeAlpha(0, PulseDuration, false);
 	      _mostVis = false;
+	      _stopping = false;
 	    }
 	    else
 	    {
