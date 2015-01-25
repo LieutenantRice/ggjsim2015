@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: bfe80197f1fb8c5479b9afb290bee52d
+timeCreated: 1422148357
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: pCube303
+    100002: pCube328
+    100004: pCube337
+    100006: pCube366
+    100008: pCube369
+    100010: pCube37
+    100012: pCube370
+    100014: pCube373
+    100016: pCube38
+    100018: pCube384
+    100020: transform196
+    100022: transform197
+    100024: transform198
+    100026: transform199
+    100028: transform200
+    100030: transform201
+    100032: transform202
+    100034: transform203
+    100036: transform204
+    100038: transform205
+    100040: transform208
+    100042: transform209
+    100044: transform210
+    100046: transform211
+    100048: transform212
+    100050: transform213
+    100052: transform214
+    100054: transform215
+    100056: transform216
+    100058: transform217
+    100060: transform218
+    100062: transform219
+    100064: Trim_Char_A_1_1
+    100066: Trim_Char_A_1_2
+    100068: Trim_Char_A_1_3
+    100070: Trim_Char_A_1_3 1
+    100072: Trim_Char_D_1_1
+    100074: Trim_Char_F_1_1
+    100076: Trim_Char_F_1_1 1
+    100078: Trim_Char_F_1_2
+    100080: Trim_Char_F_1_3
+    100082: Trim_Char_J_1_1
+    100084: Trim_Char_M_1_1
+    100086: Trim_Char_O_2_1
+    100088: Trim_Char_O_3_1
+    100090: Trim_Text_FOOD_1_1
+    100092: Trim_Text_JAM_1_1
+    100094: //RootNode
+    400000: pCube303
+    400002: pCube328
+    400004: pCube337
+    400006: pCube366
+    400008: pCube369
+    400010: pCube37
+    400012: pCube370
+    400014: pCube373
+    400016: pCube38
+    400018: pCube384
+    400020: transform196
+    400022: transform197
+    400024: transform198
+    400026: transform199
+    400028: transform200
+    400030: transform201
+    400032: transform202
+    400034: transform203
+    400036: transform204
+    400038: transform205
+    400040: transform208
+    400042: transform209
+    400044: transform210
+    400046: transform211
+    400048: transform212
+    400050: transform213
+    400052: transform214
+    400054: transform215
+    400056: transform216
+    400058: transform217
+    400060: transform218
+    400062: transform219
+    400064: Trim_Char_A_1_1
+    400066: Trim_Char_A_1_2
+    400068: Trim_Char_A_1_3
+    400070: Trim_Char_A_1_3 1
+    400072: Trim_Char_D_1_1
+    400074: Trim_Char_F_1_1
+    400076: Trim_Char_F_1_1 1
+    400078: Trim_Char_F_1_2
+    400080: Trim_Char_F_1_3
+    400082: Trim_Char_J_1_1
+    400084: Trim_Char_M_1_1
+    400086: Trim_Char_O_2_1
+    400088: Trim_Char_O_3_1
+    400090: Trim_Text_FOOD_1_1
+    400092: Trim_Text_JAM_1_1
+    400094: //RootNode
+    2300000: Trim_Char_A_1_3
+    3300000: Trim_Char_A_1_3
+    4300000: Trim_Char_A_1_3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

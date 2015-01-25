@@ -13,7 +13,7 @@ public class s_EnergyDrink : s_Interactable {
 
   public override void Interact()
   {
-    Instantiate(ps, transform.position, Quaternion.identity);
+    //Instantiate(ps, transform.position, Quaternion.identity);
     stats.energy.Add(0.4f);
     stats.piss.Add(0.3f);
     Destroy(gameObject);

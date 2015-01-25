@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 46a43a044c6709e45aeda1fc9910e6f7
+timeCreated: 1422148357
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: pCube278
+    100002: pCube278 1
+    100004: pCube280
+    100006: pCube280 1
+    100008: pCube291
+    100010: pCube291 1
+    100012: pCube292
+    100014: pCube292 1
+    100016: pCube293
+    100018: pCube293 1
+    100020: pCube294
+    100022: pCube294 1
+    100024: pCube295
+    100026: pCube295 1
+    100028: pCube296
+    100030: pCube296 1
+    100032: pCylinder4
+    100034: pCylinder4 1
+    100036: pCylinder6
+    100038: pCylinder6 1
+    100040: pPlane13
+    100042: pPlane13 1
+    100044: pPlane15
+    100046: pPlane16
+    100048: pPlane19
+    100050: //RootNode
+    100052: transform220
+    100054: transform221
+    100056: transform222
+    100058: transform223
+    100060: transform224
+    100062: transform225
+    100064: transform226
+    100066: transform227
+    100068: transform228
+    100070: transform229
+    100072: transform230
+    100074: transform231
+    100076: transform232
+    100078: transform233
+    100080: transform234
+    100082: transform235
+    100084: transform236
+    100086: transform237
+    100088: transform238
+    100090: transform239
+    100092: transform240
+    100094: transform241
+    100096: transform242
+    100098: transform243
+    400000: pCube278
+    400002: pCube278 1
+    400004: pCube280
+    400006: pCube280 1
+    400008: pCube291
+    400010: pCube291 1
+    400012: pCube292
+    400014: pCube292 1
+    400016: pCube293
+    400018: pCube293 1
+    400020: pCube294
+    400022: pCube294 1
+    400024: pCube295
+    400026: pCube295 1
+    400028: pCube296
+    400030: pCube296 1
+    400032: pCylinder4
+    400034: pCylinder4 1
+    400036: pCylinder6
+    400038: pCylinder6 1
+    400040: pPlane13
+    400042: pPlane13 1
+    400044: pPlane15
+    400046: pPlane16
+    400048: pPlane19
+    400050: //RootNode
+    400052: transform220
+    400054: transform221
+    400056: transform222
+    400058: transform223
+    400060: transform224
+    400062: transform225
+    400064: transform226
+    400066: transform227
+    400068: transform228
+    400070: transform229
+    400072: transform230
+    400074: transform231
+    400076: transform232
+    400078: transform233
+    400080: transform234
+    400082: transform235
+    400084: transform236
+    400086: transform237
+    400088: transform238
+    400090: transform239
+    400092: transform240
+    400094: transform241
+    400096: transform242
+    400098: transform243
+    2300000: pPlane19
+    3300000: pPlane19
+    4300000: pPlane19
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
