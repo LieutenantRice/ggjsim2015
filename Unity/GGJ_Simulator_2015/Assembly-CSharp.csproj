@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\HUD\s_Hud_Clock.cs" />
      <Compile Include="Assets\Scripts\HUD\s_Hud_Progress.cs" />
      <Compile Include="Assets\Scripts\HUD\s_Hud_Timer.cs" />
+     <Compile Include="Assets\Scripts\HUD\s_Hud_glow.cs" />
      <Compile Include="Assets\Scripts\Statistic.cs" />
      <Compile Include="Assets\Scripts\StatisticsSet.cs" />
      <Compile Include="Assets\Scripts\s_Camera.cs" />

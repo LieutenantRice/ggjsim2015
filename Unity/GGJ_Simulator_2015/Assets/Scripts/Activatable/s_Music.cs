@@ -3,8 +3,7 @@ using System.Collections;
 
 public class s_Music : s_Interactable
 {
-  public float ProgrestionationBoost ;
-  public float TickDuration;
+  public float ProgrestionationBoost = 0.005f ;
   public GameObject Audio;
 
   private StatisticsSet _stats;
@@ -38,6 +37,7 @@ public class s_Music : s_Interactable
 
   private void Update()
   {
+
     if (_timeOut > 0)
     {
       _timeOut --;
@@ -55,6 +55,11 @@ public class s_Music : s_Interactable
         _mov.Pause();
         _audioSource.Stop();
       }
+    }
+
+    if (_mov.isPlaying)
+    {
+      _stats.procrastination.Add(ProgrestionationBoost);
     }
 
 
