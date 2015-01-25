@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Activatable\s_Keyboard.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_Music.cs" />
      <Compile Include="Assets\Scripts\Activatable\s_PissBucket.cs" />
+     <Compile Include="Assets\Scripts\Activatable\s_cheese.cs" />
      <Compile Include="Assets\Scripts\HUD\s_Hud_Clock.cs" />
      <Compile Include="Assets\Scripts\HUD\s_Hud_Danger_General.cs" />
      <Compile Include="Assets\Scripts\HUD\s_Hud_Flickr.cs" />
