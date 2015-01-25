@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: cb34c06f8b4296a429ce4dd7dc1bb5a0
-timeCreated: 1422181533
+guid: 8a7bab43878938144a36783370519b4e
+timeCreated: 1422181827
 licenseType: Pro
 ModelImporter:
   serializedVersion: 18
@@ -8,18 +8,26 @@ ModelImporter:
     100000: pCube301
     100002: pCube341
     100004: pCube342
-    100006: //RootNode
-    100008: transform194
-    100010: transform195
+    100006: pPlane23
+    100008: pPlane24
+    100010: //RootNode
+    100012: transform194
+    100014: transform195
+    100016: transform252
+    100018: transform253
     400000: pCube301
     400002: pCube341
     400004: pCube342
-    400006: //RootNode
-    400008: transform194
-    400010: transform195
-    2300000: pCube342
-    3300000: pCube342
-    4300000: pCube342
+    400006: pPlane23
+    400008: pPlane24
+    400010: //RootNode
+    400012: transform194
+    400014: transform195
+    400016: transform252
+    400018: transform253
+    2300000: pPlane24
+    3300000: pPlane24
+    4300000: pPlane24
     9500000: //RootNode
   materials:
     importMaterials: 1
