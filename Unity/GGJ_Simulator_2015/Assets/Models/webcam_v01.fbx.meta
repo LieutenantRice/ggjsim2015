@@ -1,25 +1,30 @@
 fileFormatVersion: 2
-guid: ca17ac8426c9207409b5e1099b7f4243
+guid: e2266c6328447d64aaa416eee54804b1
 timeCreated: 1422137138
 licenseType: Pro
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCube305
-    100004: pCube307
-    100006: pCube308
-    100008: transform188
-    100010: transform189
-    400000: //RootNode
-    400002: pCube305
-    400004: pCube307
-    400006: pCube308
-    400008: transform188
-    400010: transform189
-    2300000: pCube308
-    3300000: pCube308
-    4300000: pCube308
+    100000: pCube271
+    100002: pCube272
+    100004: pCube273
+    100006: pCube274
+    100008: transform174
+    100010: transform175
+    100012: //RootNode
+    400000: pCube271
+    400002: pCube272
+    400004: pCube273
+    400006: pCube274
+    400008: transform174
+    400010: transform175
+    400012: //RootNode
+    2300000: pCube271
+    2300002: pCube274
+    3300000: pCube271
+    3300002: pCube274
+    4300000: pCube271
+    4300002: pCube274
     9500000: //RootNode
   materials:
     importMaterials: 1
