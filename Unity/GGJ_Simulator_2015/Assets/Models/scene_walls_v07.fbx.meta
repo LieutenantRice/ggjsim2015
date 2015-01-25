@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 0fc15e67f026b194e8028d7ea94a913c
+timeCreated: 1422190292
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: pCube302
+    100002: pCube329
+    100004: pCube330
+    100006: pCube331
+    100008: pCube332
+    100010: pCube340
+    100012: pCube367
+    100014: pCube368
+    100016: pCube371
+    100018: pCube372
+    100020: pCube388
+    100022: pCube390
+    100024: pCube391
+    100026: pCube392
+    100028: pCube393
+    100030: pPlane20
+    100032: pPlane21
+    100034: pPlane22
+    100036: pPlane25
+    100038: pPlane26
+    100040: //RootNode
+    100042: transform190
+    100044: transform191
+    100046: transform192
+    100048: transform193
+    100050: transform249
+    100052: transform250
+    100054: transform251
+    100056: transform254
+    100058: transform255
+    100060: transform256
+    100062: transform257
+    100064: transform258
+    100066: transform259
+    100068: transform260
+    100070: transform261
+    100072: transform262
+    100074: Trim_Char_N_1_2
+    400000: pCube302
+    400002: pCube329
+    400004: pCube330
+    400006: pCube331
+    400008: pCube332
+    400010: pCube340
+    400012: pCube367
+    400014: pCube368
+    400016: pCube371
+    400018: pCube372
+    400020: pCube388
+    400022: pCube390
+    400024: pCube391
+    400026: pCube392
+    400028: pCube393
+    400030: pPlane20
+    400032: pPlane21
+    400034: pPlane22
+    400036: pPlane25
+    400038: pPlane26
+    400040: //RootNode
+    400042: transform190
+    400044: transform191
+    400046: transform192
+    400048: transform193
+    400050: transform249
+    400052: transform250
+    400054: transform251
+    400056: transform254
+    400058: transform255
+    400060: transform256
+    400062: transform257
+    400064: transform258
+    400066: transform259
+    400068: transform260
+    400070: transform261
+    400072: transform262
+    400074: Trim_Char_N_1_2
+    2300000: pCube388
+    2300002: pCube390
+    2300004: pCube391
+    2300006: pCube392
+    2300008: pCube393
+    3300000: pCube388
+    3300002: pCube390
+    3300004: pCube391
+    3300006: pCube392
+    3300008: pCube393
+    4300000: pCube388
+    4300002: pCube390
+    4300004: pCube391
+    4300006: pCube392
+    4300008: pCube393
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
