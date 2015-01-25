@@ -1,0 +1,18 @@
+Initialize engine version: 5.0.0b21 (e285fa5f42d9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\documenten\projecten\GGJ_simulator_2014\ggjsim2015\builds\build002\GlobalGameJamSimulator_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\documenten\projecten\GGJ_simulator_2014\ggjsim2015\builds\build002\GlobalGameJamSimulator_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\documenten\projecten\GGJ_simulator_2014\ggjsim2015\builds\build002\GlobalGameJamSimulator_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\documenten\projecten\GGJ_simulator_2014\ggjsim2015\builds\build002\GlobalGameJamSimulator_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\documenten\projecten\GGJ_simulator_2014\ggjsim2015\builds\build002\GlobalGameJamSimulator_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\documenten\projecten\GGJ_simulator_2014\ggjsim2015\builds\build002\GlobalGameJamSimulator_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+desktop: 1920x1200 59Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
