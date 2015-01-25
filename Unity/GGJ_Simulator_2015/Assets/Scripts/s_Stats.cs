@@ -27,6 +27,7 @@ public class s_Stats : MonoBehaviour
     }
     if (health <= 0)
     {
+      
       deathscript.Die();
     }
   }
