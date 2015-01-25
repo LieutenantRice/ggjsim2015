@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\s_Player.cs" />
      <Compile Include="Assets\Scripts\s_Stats.cs" />
      <Compile Include="Assets\Scripts\s_Time.cs" />
+     <Compile Include="Assets\Scripts\s_death.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 5.0.0b21/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

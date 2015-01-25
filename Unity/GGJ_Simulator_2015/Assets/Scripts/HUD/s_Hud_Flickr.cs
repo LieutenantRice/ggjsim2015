@@ -7,12 +7,14 @@ public class s_Hud_Flickr : MonoBehaviour
   public float SwitchTime = 0.8f;
   private float _nextTime = 0;
   private bool _active = true;
-  private RawImage img;
+  private Behaviour img;
 	// Use this for initialization
 	void Start ()
 	{
+    if (GetComponent<RawImage>() !=null)
 	  img = GetComponent<RawImage>();
-
+    if (GetComponent<Text>() != null)
+      img = GetComponent<Text>();
 	}
 	
 	// Update is called once per frame
